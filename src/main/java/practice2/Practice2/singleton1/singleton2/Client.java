@@ -1,4 +1,4 @@
-package org.Practice2.singleton1.singleton2;
+package practice2.Practice2.singleton1.singleton2;
 
 public class Client {
     private int _id;

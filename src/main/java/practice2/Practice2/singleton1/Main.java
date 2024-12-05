@@ -1,4 +1,4 @@
-package org.Practice2.singleton1;
+package practice2.Practice2.singleton1;
 
 public class Main {
     public static void main(String[] args) {
