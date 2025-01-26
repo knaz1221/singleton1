@@ -7,7 +7,7 @@ public class Main {
         Ticket ticket = new Ticket("T001", LocalDateTime.now(), "Consultation");
         QueueController qcController = new QueueController(ticket);
 
-        String serviceType = "priority"; // Example: change to "general" or "self-service" for testing
+        String serviceType = "priority";
 
         if (serviceType.equalsIgnoreCase("general")) {
             qcController.setQueueStrategy(new GeneralQueue());
